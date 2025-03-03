@@ -1,0 +1,46 @@
+Project Reconstruction Help File
+Follow these steps to reproduce the entire process:
+
+Step 1: Preprocessing the Data
+
+Run the preprocessing.py file:
+This script is responsible for transforming the raw dataset and unifying all the relevant data into a single DataFrame.
+The preprocessing process involves:
+Adding relevant features such as technical indicators or other derived variables that enhance the model’s learning capability.
+Handling missing data, scaling features, and preparing the dataset for LSTM model training.
+The script outputs the transformed_data.csv file, which contains the fully preprocessed data ready for model development and evaluation.
+
+tep 2: LSTM Architecture Model Development
+
+Open the notebook: LSTM Architecture Model Development and Optimization.ipynb.
+This notebook will:
+Train models using various LSTM architectures with different configurations.
+Plot the train, validation, and test sets to visualize the data splits.
+Predict and calculate key evaluation metrics: MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and MAE (Mean Absolute Error) for the train, validation, and test datasets.
+Save trained models for each architecture and produce an Excel summary (models_summary.xlsx) containing performance metrics for all tested architectures.
+
+Outputs from this step:
+Trained models for each architecture.
+A summary Excel file with evaluation metrics for each model configuration.
+
+Step 3: Data Analysis and Comparison
+
+Run the notebook: Data Analysis - Comparison Architectures.ipynb.
+This notebook will:
+Process the models_summary.xlsx file generated from Step 2.
+Plot various bar charts comparing the architectures' performance based on evaluation metrics (e.g., MSE, RMSE, MAE).
+Optional Visualization:
+If you prefer more interactive visualizations, you can open the Power BI file to explore the comparisons with dynamic plots.
+
+Step 4: Review the Generated Plots and Saved Models
+Link to OneDrive:
+https://drive.google.com/drive/folders/1GmcN6b721hSqGCV1P7jkDp0UDAaka4Tp?usp=sharing
+
+Plots.zip: This folder contains all the plots generated during the process, including:
+Test vs. Actual values
+Validation vs. Actual values
+Validation loss and Training loss
+
+"Saved LSTM Model Architectures": This folder contains all the LSTM models that were trained and saved during the process. Each model corresponds to the different architectures tested.
+
+By reviewing these files, you can analyze the performance of each architecture and visualize how well the models fit the data.
