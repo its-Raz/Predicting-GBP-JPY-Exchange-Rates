@@ -1,4 +1,4 @@
-# 📊 Forecasting Methods in Fintech (096292)
+# 📊 Forecasting Methods in Fintech
 
 ## 🧠 Project Summary
 
