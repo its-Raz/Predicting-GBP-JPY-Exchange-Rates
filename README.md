@@ -161,8 +161,8 @@ Key takeaways include:
 - The final model achieved a **Validation MAE of 6.678** and a **Test MAE of 9.428**, demonstrating strong predictive capabilities over an 80-day test window.
 
 While the model didn't perfectly capture all fluctuations, it effectively followed general trends. With more data, additional feature engineering, and model ensemble techniques, future work could further improve accuracy.
-
 This project lays a solid foundation for real-world forecasting in fintech applications and showcases the power of combining statistical rigor with deep learning techniques.
+
 ---
 
 ## 📌 Final Notes
